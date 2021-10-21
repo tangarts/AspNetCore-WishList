@@ -35,7 +35,7 @@ namespace WishList.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-            return View("Index");
+            return View("Create");
         }
 
         public IActionResult Delete(int id)
